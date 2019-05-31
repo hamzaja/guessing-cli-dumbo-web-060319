@@ -3,6 +3,7 @@ def run_guessing_game
   guess = gets.chomp
   num = rand(1..100)
   if 
+    guess == 
 
 
 end
