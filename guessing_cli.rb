@@ -9,4 +9,5 @@ def run_guessing_game
   end
   break if guess =="exit"
 end
+"Goodbye!"
 end
