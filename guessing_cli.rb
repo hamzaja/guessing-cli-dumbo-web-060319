@@ -6,7 +6,7 @@ def run_guessing_game
   if 
     guess.to_i == num
     p "You guessed the correct number!"
-  end
+  elsif 
     p "The computer guessed #{num}."
   
   break if guess =="exit"
