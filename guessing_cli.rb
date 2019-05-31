@@ -9,6 +9,7 @@ def run_guessing_game
   else  p "The computer guessed #{num}."
   end
   break if guess =="exit"
+  "Goodbye!"
 end
-"Goodbye!"
+
 end
