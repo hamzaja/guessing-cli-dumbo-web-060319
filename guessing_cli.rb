@@ -5,6 +5,7 @@ def run_guessing_game
   if 
     guess.to_i == num
     p "You guessed the correct number!"
+  else  p ""
   end
   break if guess =="exit"
 end
