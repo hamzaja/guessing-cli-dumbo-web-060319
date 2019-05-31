@@ -1,5 +1,5 @@
 def run_guessing_game
-  p ""
+  p "Guess a number between 1 and 6."
   loop do 
   guess = gets.chomp
   num = rand(1..6)
